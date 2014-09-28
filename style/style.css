@@ -1,0 +1,41 @@
+.border {
+    background-color: darkgray;
+    width: 280px;
+    transition: width 300ms, height 300ms;
+    display: table;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.inputfield {
+    font-family: "Lucida Console", Monaco, monospace;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputfield input {
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #40413b;
+    color: #ffe10c;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border-width: 0;
+    display: table-cell;
+    margin: 5px;
+    width: 200px;
+}
+
+.output {
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #40413b;
+    color: #ffe10c;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    border-width: 0;
+}
+
