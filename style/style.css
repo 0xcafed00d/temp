@@ -20,7 +20,7 @@ td.cell {
 	box-shadow: 1px 1px 6px #555;
 }
 
-td.cell:hover {
+td.cell.playable:hover {
     transition: background 100ms;
     background-color: #f9e9d1;
     color: white;
