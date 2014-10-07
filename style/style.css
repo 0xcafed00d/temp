@@ -1,5 +1,5 @@
 
-table {
+table.board {
     border-collapse: separate;
     border-spacing: 5px 5px;
 	background-color: #f9c77c;
@@ -17,7 +17,7 @@ td.cell {
 	height: 64px;
 	width: 64px;
     transition: background 200ms;
-	box-shadow: 0px 0px 10px #555;
+	box-shadow: 1px 1px 6px #555;
 }
 
 td.cell:hover {
@@ -27,17 +27,22 @@ td.cell:hover {
 }
 
 .piece {
-	width: 56px;
-	height: 56px;
-	border-radius: 28px;
+	visibility: hidden;
+	width: 85%;
+	height: 85%;
+	border-radius: 50%;
 	margin: auto;
 	box-shadow: 2px 2px 10px #555;	
 }
 
 .piece.white {
+	visibility: visible;
 	background-color: white;	
+    transition: background 200ms;
 }
 
 .piece.black {
-	background-color: black;	
+	visibility: visible;
+	background-color: black;
+	transition: background 200ms;
 }
